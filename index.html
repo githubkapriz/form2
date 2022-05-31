@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <div>
+            <p>Ім'я</p>
+            <input placeholder="Ім'я" tabindex="1" name="username " type="text">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input tabindex="2" name="userpass " type="password">
+        </div>
+        <div>
+            <p>телефон</p>
+            <input tabindex="3" name="userphone " type="tel">
+        </div>
+        <div>
+            <p>стать</p>
+
+            <div>
+
+                <input tabindex="4" checked type="radio" name="gender " value="male">Чоловік
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender " value="female">Жінка
+            </div>
+        </div>
+        <div>
+            <p>Власність</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="byke " value="yes">біциглі
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car " value="">авто
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="plane " value="female">літак
+            </div>
+        </div>
+        <div>
+            <p>таємниця</p>
+            <textarea tabindex="8" name="text" "></textarea>
+        </div>
+        <div>
+            <p>scanface</p>
+            <input tabindex="9" type=" file">
+        </div>
+        <div>
+            <p>веселка</p>
+            <select tabindex="10" name="rainbow" >
+                <option value="red">червоний</option>
+                <option value="orange">оранжевий</option>
+                <option value="yellow">жовтий</option>
+                <option value="green">зелений</option>
+                <option value="blue">блакитний</option>
+                <option value="nevy">синій</option>
+                <option selected value="lilack">фіолетовий</option>
+            </select>
+
+        </div>
+        <div>
+        <p>дія</p>
+        <button tabindex="11" tyape="submit">послати</button>
+        <button tabindex="12" tyape="reset">забрати</button>
+        </div>
+    </form>
+</body>
+
+</html>
